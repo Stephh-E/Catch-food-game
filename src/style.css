@@ -1,4 +1,19 @@
 body {
     background-color: aqua;
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
 }
+
+#image-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#movable-kirby {
+    position: absolute;
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
 
