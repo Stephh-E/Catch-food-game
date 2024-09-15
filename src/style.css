@@ -2,6 +2,7 @@ body {
     background-color: aqua;
     margin: 0;
     overflow: hidden; /* Prevent scrollbars */
+    cursor: none; /* Hide the cursor across the entire page */
 }
 
 #image-container {
@@ -12,8 +13,15 @@ body {
 
 #movable-kirby {
     position: absolute;
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-
+.onigiri {
+    position: absolute;
+    width: 50px;
+    height: auto;
+}

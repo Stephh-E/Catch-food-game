@@ -20,3 +20,5 @@ document.addEventListener('mousemove', (event) => {
     image.style.left = `${newLeft}px`;
     image.style.top = `${newTop}px`;
 });
+
+
